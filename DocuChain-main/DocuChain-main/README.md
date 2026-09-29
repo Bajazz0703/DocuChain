@@ -11,7 +11,7 @@ On-demand tamper detection (live hash vs. ledger record)
 Full-text search powered by MeiliSearch
 Complete audit trail dashboard for admins
 JWT-based role access (user vs. admin)
-Fully LAN-deployed — no internet dependency for core functions
+Fully LAN-deployed - no internet dependency for core functions
 
 Tech Stack:
 React/Vite/Tailwind (frontend) · Node.js/Express (backend) · PostgreSQL (metadata) · Hyperledger Fabric 2.5 (blockchain) · MeiliSearch (search) · Docker/Docker Compose (infrastructure)
@@ -28,4 +28,4 @@ Filesystem	Actual files	Too large for databases
 
 Security notes: Only hashes go on-chain (never document content); permissioned blockchain, not public; passwords hashed with bcrypt; sessions via JWT.
 
-Team: El Jane M. Bernal (Project Manager), Edrian M. Lim (System Developer), Jhastter R. Rollon (Systems Analyst & Documentation) — Institute of Computing, Davao del Norte State College.
+Team: El Jane M. Bernal (Project Manager), Edrian M. Lim (System Developer), Jhastter R. Rollon (Systems Analyst & Documentation) - Institute of Computing, Davao del Norte State College.
